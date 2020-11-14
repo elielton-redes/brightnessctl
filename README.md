@@ -1,4 +1,4 @@
-# brightnessctl
+# brightnessctl amd
 This shell project is designed to allow change of the
 */sys/class/backlight/&#42;/brightness* without being root.
 This is usefull for keybinding.
