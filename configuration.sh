@@ -1,7 +1,7 @@
 #! /bin/bash
 
-brightFolder="/sys/class/backlight/intel_backlight/"
+brightFolder="/sys/class/backlight/radeon_bl0/"
 currentBright=`cat $brightFolder"brightness"`
 maxBright=`cat $brightFolder"max_brightness"`
-minBright=$((maxBright / 20))
-stepSize=$((maxBright / 10))
+minBright=$((maxBright / 45))
+stepSize=$((maxBright / 45))
