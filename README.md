@@ -18,9 +18,10 @@ password (otherwise you can't keybind it).
 
 and insert the following line
 
-	%wheel ALL=(root) NOPASSWD: /usr/local/bin/brightness
-
-In my case the sudoers group is equal to wheel.
+	%wheel	ALL=(root) NOPASSWD: /usr/local/bin/brightness 
+	or
+	%sudo	ALL=(root) NOPASSWD: /usr/local/bin/brightness
+	
 
 ### Testing ###
 Now type in (be warned, a brightness of 0 made my screen completly black in the
